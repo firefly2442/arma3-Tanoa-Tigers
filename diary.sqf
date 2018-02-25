@@ -15,7 +15,7 @@ waitUntil {!isNull player};
 player createDiaryRecord ["Diary",["Additional Intel",
 "
 <marker name='RODEO_ONE_MARKER'>Rodeo 1</marker>, <marker name='RODEO_TWO_MARKER'>2</marker>,
-and <marker name='RODEO_THREE_MARKER'>3</marker> are available for transport.<br/>
+<marker name='RODEO_THREE_MARKER'>3</marker>, and <marker name='RODEO_FOUR_MARKER'>4</marker> are available for transport.<br/>
 <marker name='EAGLE_ONE_MARKER'>Eagle 1 (AH-64D Apache)</marker> is available for close-air support (CAS).<br/>
 <marker name='EAGLE_TWO_MARKER'>Eagle 2 (A-10)</marker> is available for close-air support (CAS).<br/>
 Steel Rain (artillery) has limited coverage onto the main island.

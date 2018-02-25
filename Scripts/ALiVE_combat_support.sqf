@@ -5,6 +5,7 @@
 [] spawn { while{!isNull RODEO_ONE} do {"RODEO_ONE_MARKER" setMarkerPos getPos RODEO_ONE; sleep 1;}; };
 [] spawn { while{!isNull RODEO_TWO} do {"RODEO_TWO_MARKER" setMarkerPos getPos RODEO_TWO; sleep 1;}; };
 [] spawn { while{!isNull RODEO_THREE} do {"RODEO_THREE_MARKER" setMarkerPos getPos RODEO_THREE; sleep 1;}; };
+[] spawn { while{!isNull RODEO_FOUR} do {"RODEO_FOUR_MARKER" setMarkerPos getPos RODEO_FOUR; sleep 1;}; };
 
 // CAS
 [] spawn { while{!isNull EAGLE_ONE} do {"EAGLE_ONE_MARKER" setMarkerPos getPos EAGLE_ONE; sleep 1;}; };
