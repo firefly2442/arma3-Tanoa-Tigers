@@ -20,6 +20,7 @@ Arma 3 mission utilizing ALiVE modules
 * Halo jump via flagpole
 * Heal player via medical tent
 * Recruit AI via barracks tent
+* Spawn vehicles at sign-post
 * Stock Arma 3 revive system
 * Virtual arsenal box for loadouts
 * Automatic tasking from ALiVE
