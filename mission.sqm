@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=203;
+		nextID=204;
 	};
 	class MarkerIDProvider
 	{
@@ -981,7 +981,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={11822.732,6.9499998,13174.693};
+				position[]={10901.043,309.39313,8553.876};
+				angles[]={5.7253065,0,6.1663852};
 			};
 			id=5;
 			type="ALiVE_mil_OPCOM";
@@ -1274,8 +1275,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={11747.416,0.77829099,13238.076};
-				angles[]={6.1821971,0,0.19995849};
+				position[]={10825.727,348.39313,8617.2588};
+				angles[]={5.4807525,0,5.7447166};
 			};
 			id=7;
 			type="ALiVE_civ_placement";
@@ -2001,11 +2002,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={11942.073,0.88650429,13417.961};
+				position[]={11664.825,8.4587555,13044.862};
 			};
 			id=12;
 			type="ALiVE_mil_OPCOM";
-			atlOffset=25.488701;
+			atlOffset=1.0721474;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2282,11 +2283,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={11838.662,0,13437.079};
+				position[]={11561.414,13.377822,13063.981};
+				angles[]={0.25561675,0,6.0552187};
 			};
 			id=13;
 			type="ALiVE_mil_placement";
-			atlOffset=21.270504;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2696,7 +2697,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={11910.028,6.9499998,13143.098};
+				position[]={10988.339,237.39687,8522.2803};
+				angles[]={5.6697721,0,0.037315138};
 			};
 			id=29;
 			type="ALiVE_mil_ied";
@@ -2774,7 +2776,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=1;
+							value=2;
 						};
 					};
 				};
@@ -3599,7 +3601,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={11737.179,6.9499998,13133.927};
+				position[]={10815.489,274.59872,8513.1094};
+				angles[]={5.5630279,0,5.5908127};
 			};
 			id=36;
 			type="ALiVE_mil_cqb";
@@ -6793,8 +6796,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={12295.729,4.1113458,13868.477};
-				angles[]={6.1012211,0,6.2033553};
+				position[]={12295.73,4.1112723,13868.477};
+				angles[]={6.1012173,0,6.2033539};
 			};
 			id=114;
 			type="ALiVE_sup_artillery";
@@ -8424,11 +8427,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={11984.321,-0.0004196167,13510.69};
+				position[]={11707.073,9.0340004,13137.592};
 			};
 			id=179;
 			type="ALiVE_mil_logistics";
-			atlOffset=26.474998;
+			atlOffset=2.0840006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8648,11 +8651,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={11816.495,24.737999,13097.703};
+				position[]={10894.806,263.60297,8476.8857};
 			};
 			id=180;
 			type="ALiVE_mil_logistics";
-			atlOffset=17.787998;
+			atlOffset=17.787003;
 			class CustomAttributes
 			{
 				class Attribute0
