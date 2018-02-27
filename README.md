@@ -26,6 +26,7 @@ Arma 3 mission utilizing ALiVE modules
 * Automatic tasking from ALiVE
 * Resupply of ammo and vehicles available via ALiVE
 * Zeus available to logged-in admin
+* Refuel and repair vehicles at sign-post
 
 ## Info:
 

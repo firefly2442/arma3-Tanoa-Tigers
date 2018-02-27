@@ -5,7 +5,7 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=641;
+	toggles=513;
 	class ItemIDProvider
 	{
 		nextID=203;
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2235.4536,46.389759,13377.74};
-		dir[]={-0.00767879,-0.69363475,0.72044992};
-		up[]={-0.0073964512,0.72021055,0.69361943};
-		aside[]={1.000047,3.8236312e-006,0.010658636};
+		pos[]={2241.9412,42.077534,13409.561};
+		dir[]={-0.014433851,-0.74157715,0.67088503};
+		up[]={-0.01595572,0.67076129,0.74141067};
+		aside[]={0.9998787,3.6477791e-006,0.021513384};
 	};
 };
 binarizationWanted=0;
@@ -890,8 +890,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={2175.5107,6.1835375,13500.523};
-				angles[]={0.039977662,0,0.047963165};
+				position[]={2175.511,6.1835485,13500.523};
+				angles[]={0.039985489,0,0.047961645};
 			};
 			id=4;
 			type="ModuleCurator_F";
@@ -3283,7 +3283,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="true";
+							value="false";
 						};
 					};
 				};
@@ -5540,12 +5540,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={4431.5708,4.2417722,12564.707};
-				angles[]={6.2778621,0,0};
+				position[]={4470.3149,1.2665515,12603.095};
+				angles[]={0.023993526,0,0.0026520467};
 			};
 			id=60;
 			type="ALiVE_sup_artillery";
-			atlOffset=-4.7683716e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -6551,8 +6550,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={10759.588,3.8763344,5309.144};
-				angles[]={0.15084881,0,0.13779375};
+				position[]={10758.438,2.4832423,5267.3447};
+				angles[]={0.069222413,0,0.013332055};
 			};
 			id=113;
 			type="ALiVE_sup_artillery";
@@ -6794,8 +6793,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={12255.53,4.0627565,13887.83};
-				angles[]={6.179565,0,0.053284902};
+				position[]={12295.729,4.1113458,13868.477};
+				angles[]={6.1012211,0,6.2033553};
 			};
 			id=114;
 			type="ALiVE_sup_artillery";
@@ -7662,16 +7661,57 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2118.3074,13.451439,13314.856};
+						position[]={2118.3069,13.451439,13314.856};
 					};
 					side="West";
 					flags=6;
 					class Attributes
 					{
-						isPlayer=1;
 					};
 					id=160;
 					type="rhsusf_army_ucp_helipilot";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male06ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item1
 				{
@@ -8902,7 +8942,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{this allowDamage false;" \n "this addAction[""Spawn UH60M (Blackhawk) Transport Helicopter"", ""Scripts\SpawnVehicle.sqf"", ""RHS_UH60M""];" \n "this addAction[""Spawn AH-64D (Apache) Attack Helicopter"", ""Scripts\SpawnVehicle.sqf"", ""RHS_AH64D_wd""];" \n "this addAction[""Spawn CH47F (Chinook) Transport Helicopter"", ""Scripts\SpawnVehicle.sqf"", ""RHS_CH_47F""];" \n "this addAction[""Spawn MH6B (Littlebird) Transport Helicopter"", ""Scripts\SpawnVehicle.sqf"", ""RHS_MELB_MH6M""];" \n "this addAction[""Spawn Humvee w/MG Ground Transport"", ""Scripts\SpawnVehicle.sqf"", ""rhsusf_m1025_w_m2""];" \n "this addAction[""Spawn M119 Artillery"", ""Scripts\SpawnVehicle.sqf"", ""RHS_M119_WD""];" \n "this addAction[""<t color='#FF0000'>Clear Vehicle Spawn Area</t>"", ""Scripts\ClearVehicleSpawn.sqf"", """"];}";
+				init="call{this allowDamage false;" \n "this addAction[""Spawn UH60M (Blackhawk) Transport Helicopter"", ""Scripts\SpawnVehicle.sqf"", ""RHS_UH60M""];" \n "this addAction[""Spawn AH-64D (Apache) Attack Helicopter"", ""Scripts\SpawnVehicle.sqf"", ""RHS_AH64D_wd""];" \n "this addAction[""Spawn CH47F (Chinook) Transport Helicopter"", ""Scripts\SpawnVehicle.sqf"", ""RHS_CH_47F""];" \n "this addAction[""Spawn MH6B (Littlebird) Transport Helicopter"", ""Scripts\SpawnVehicle.sqf"", ""RHS_MELB_MH6M""];" \n "this addAction[""Spawn Humvee w/MG Ground Transport"", ""Scripts\SpawnVehicle.sqf"", ""rhsusf_m1025_w_m2""];" \n "this addAction[""Spawn M119 Artillery"", ""Scripts\SpawnVehicle.sqf"", ""RHS_M119_WD""];" \n "this addAction[""<t color='#FF0000'>Clear Vehicle Spawn Area</t>"", ""Scripts\ClearVehicleSpawn.sqf"", """"];" \n "this addAction[""<t color='#FFFF00'>Refuel and Repair Vehicle</t>"", ""Scripts\RefuelRepairVehicle.sqf"", """"];" \n "}";
 			};
 			id=191;
 			type="Land_Noticeboard_F";
